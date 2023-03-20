@@ -1,1 +1,28 @@
 /* TODO Add site wide styles */
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 400px;
+}
+
+input {
+    width: 100px;
+}
+
+textarea {
+    width: 200px;
+}
+
+.error {
+    color:red;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    height: 0;
+}
